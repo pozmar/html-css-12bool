@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*bg a tutte le sezioni*/
+.container{
+  background-color: pink;
+}
+/*bordi e altezze a tutte le col figlie dirette di container*/
+.container > [class*="col-"]{
+  border: 1px solid black;
+  height: 200px;
+}
+/*posizione e padding alle due col dentro all'ultimo container*/
+.first, .second{
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/*proprietà alle col innestate*/
+.prima, .seconda{
+  border: 1px solid white;
+  height: 180px;
+  position: relative;
+  top: 5%;
+  background-color: red;
+}
