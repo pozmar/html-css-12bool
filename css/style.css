@@ -14,7 +14,6 @@
 }
 /*posizione e padding alle due col dentro all'ultimo container*/
 .last{
-  position: relative;
   padding-left: 10px;
   padding-right: 10px;
 }
