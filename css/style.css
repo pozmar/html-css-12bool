@@ -13,13 +13,13 @@
   height: 200px;
 }
 /*posizione e padding alle due col dentro all'ultimo container*/
-.first, .second{
+.last{
   position: relative;
   padding-left: 10px;
   padding-right: 10px;
 }
 /*proprietà alle col innestate*/
-.prima, .seconda{
+.last > [class*="col-"]{
   border: 1px solid white;
   height: 180px;
   position: relative;
